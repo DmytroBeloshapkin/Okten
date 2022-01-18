@@ -1,0 +1,43 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.wrap{
+    background-color: #f2f3f2;
+    box-sizing: border-box;
+    width: 800px;
+    height: 550px;
+    padding: 10px;
+    border-radius: 1%;
+}
+
+.colum{
+    display: flex;
+}
+
+.text{
+    background-color: #d8d8d8;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 5px;
+    padding-top: 100px;
+    border: 5px solid #bebdbd;
+    border-radius: 5px;
+}
+
+.B{
+    width: 70%;
+}
+
+.C{
+    width: 30%;
+}
+
+.h300{
+    height: 300px;
+}
+
+.h200{
+    height: 200px;
+}
