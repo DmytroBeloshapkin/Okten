@@ -1,0 +1,19 @@
+html, body{
+    background-color: antiquewhite;
+}
+h1{
+    background-color: cornflowerblue;
+    color: antiquewhite;
+}
+
+.pic{
+    width: 150px;
+}
+
+.contact{
+    color: black;
+}
+
+.class2{
+    font-weight: bold;
+}
