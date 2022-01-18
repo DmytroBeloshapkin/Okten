@@ -1,0 +1,85 @@
+body{
+    background-color: #dfdfdf;
+}
+.one {
+ display: flex;
+}
+.two {
+    display: flex;
+}
+
+.A{
+    box-sizing: border-box;
+    width: 150px;
+    height: 150px;
+    padding-top: 60px;
+    margin: 50px;
+    background-color: #fda52a;
+    font-size: 25px;
+    text-align: center;
+    border: 3px solid #6f6b6d;
+    box-shadow: #454545 15px 15px 0
+}
+
+.B{
+    box-sizing: border-box;
+    width: 150px;
+    height: 150px;
+    padding-top: 60px;
+    margin: 50px;
+    background-color: #fda52a;
+    font-size: 25px;
+    text-align: center;
+    border: 3px solid #6f6b6d;
+    box-shadow: #454545 15px 15px 5px 0px;
+}
+.C{
+    box-sizing: border-box;
+    width: 150px;
+    height: 150px;
+    padding-top: 60px;
+    margin: 50px;
+    background-color: #fda52a;
+    font-size: 25px;
+    text-align: center;
+    border: 3px solid #6f6b6d;
+    box-shadow: #454545 15px 15px 5px 7px;
+}
+.D{
+    box-sizing: border-box;
+    width: 150px;
+    height: 150px;
+    padding-top: 60px;
+    margin: 50px;
+    background-color: #fda52a;
+    font-size: 25px;
+    text-align: center;
+    border: 3px solid #6f6b6d;
+    box-shadow: #989898 15px 15px 5px 7px;
+}
+.E{
+    box-sizing: border-box;
+    width: 150px;
+    height: 150px;
+    padding-top: 60px;
+    margin: 50px;
+    background-color: #fda52a;
+    font-size: 25px;
+    text-align: center;
+    border: 3px solid #6f6b6d;
+    border-radius: 7px;
+    box-shadow: #454545 15px 15px 5px 5px;
+}
+.F{
+    box-sizing: border-box;
+    width: 150px;
+    height: 150px;
+    padding-top: 60px;
+    margin: 50px;
+    background-color: #fda52a;
+    font-size: 25px;
+    text-align: center;
+    border: 3px solid #6f6b6d;
+    border-radius: 7px;
+    box-shadow: #989898 15px 15px 5px 5px;
+}
