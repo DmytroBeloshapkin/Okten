@@ -1,0 +1,135 @@
+body{
+    background-color: #daf7b0;
+    display: flex;
+    justify-content: center;
+}
+
+.wrap{
+    box-sizing: border-box;
+    width: 630px;
+    background-color: white;
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.bodyBox{
+    display: flex;
+}
+
+p{
+    font-size: 14px;
+    padding: 10px;
+}
+
+.header {
+    box-sizing: border-box;
+    width: 620px;
+    height: 50px;
+    background-color: #09d1e5;
+    color: white;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+
+.hero{
+    box-sizing: border-box;
+    width: 300px;
+    height: 200px;
+    background-color: #d6c4dd;
+    color: white;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+
+.Sidebar{
+    box-sizing: border-box;
+    width: 300px;
+    height: 300px;
+    background-color: #8dc366;
+    color: white;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+
+.main {
+    box-sizing: border-box;
+    width: 300px;
+    height: 350px;
+    background-color: #f5c448;
+    color: white;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    flex-direction: column;
+    text-align: center;
+}
+
+.extra {
+    box-sizing: border-box;
+    width: 300px;
+    height: 150px;
+    background-color: #858585;
+    color: white;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+
+.relatedI{
+    box-sizing: border-box;
+    width: 450px;
+    height: 100px;
+    background-color: #00b573;
+    color: white;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+
+.relatedP{
+    box-sizing: border-box;
+    width: 150px;
+    height: 100px;
+    background-color: #f9c7d9;
+    color: white;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+
+.footerBoxTop{
+    display: flex;
+}
+
+.footer{
+    box-sizing: border-box;
+    width: 620px;
+    height: 50px;
+    background-color: #fd9f28;
+    color: white;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}

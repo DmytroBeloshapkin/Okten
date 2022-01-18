@@ -1,0 +1,51 @@
+body{
+    background-color: antiquewhite;
+}
+
+.header {
+    box-sizing: border-box;
+    border: 5px solid white;
+    background-color: silver;
+    height: 200px;
+    width: 800px;
+    text-align: center;
+    font-size: 34px;
+    padding-top: 70px;
+}
+
+.colum{
+    display: flex;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+}
+
+.blocks{
+box-sizing: border-box;
+border: 5px solid white;
+background-color: silver;
+height: 200px;
+width: 200px;
+text-align: center;
+font-size: 34px;
+padding-top: 70px;
+}
+
+.blockA, .blockB{
+    display: flex;
+}
+
+.block2{
+    box-sizing: border-box;
+    border: 5px solid white;
+    background-color: silver;
+    height: 400px;
+    width: 200px;
+    text-align: center;
+    font-size: 34px;
+    padding-top: 180px;
+}
+

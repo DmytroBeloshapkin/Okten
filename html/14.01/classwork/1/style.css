@@ -1,0 +1,59 @@
+body{
+    background-color: antiquewhite;
+}
+
+.header {
+    box-sizing: border-box;
+    border: 5px solid white;
+    background-color: silver;
+    height: 200px;
+    width: 800px;
+    text-align: center;
+    font-size: 34px;
+    padding: 80px;
+}
+
+.columBox{
+    display: flex;
+}
+
+.box {
+    box-sizing: border-box;
+    border: 5px solid white;
+    background-color: silver;
+    height: 200px;
+    width: 600px;
+    text-align: center;
+    font-size: 34px;
+    padding: 80px;
+}
+
+.block {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.block2 {
+    box-sizing: border-box;
+    border: 5px solid white;
+    background-color: silver;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    font-size: 34px;
+    padding: 80px;
+}
+
+.F {
+    box-sizing: border-box;
+    border: 5px solid white;
+    background-color: silver;
+    width: 200px;
+    height: 400px;
+    text-align: center;
+    font-size: 34px;
+    padding-top: 160px;
+}
+
+

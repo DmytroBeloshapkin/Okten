@@ -1,0 +1,42 @@
+body{
+    background-color: antiquewhite;
+}
+.header, .footer {
+    display: flex;
+}
+
+.headerName{
+    background-color: #185fb3;
+    text-align: center;
+    padding-top: 120px;
+    font-size: 25px;
+    color: antiquewhite;
+    width: 200px;
+    height: 300px;
+    box-sizing: border-box;
+    border: 5px solid white;
+}
+
+.Kabobs{
+    background-color: #185fb3;
+    text-align: center;
+    padding-top: 80px;
+    font-size: 25px;
+    color: antiquewhite;
+    width: 400px;
+    height: 200px;
+    box-sizing: border-box;
+    border: 5px solid white;
+}
+
+.footerName{
+    background-color: #0b4374;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 15px;
+    color: antiquewhite;
+    width: 133px;
+    height: 133px;
+    box-sizing: border-box;
+    border: 5px solid white;
+}

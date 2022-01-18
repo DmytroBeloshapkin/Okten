@@ -1,0 +1,38 @@
+body {
+    background-color: antiquewhite;
+}
+.colum{
+    display: flex;
+}
+
+.boxA{
+    box-sizing: border-box;
+    border: 5px solid white;
+    background-color: silver;
+    height: 200px;
+    width: 800px;
+    text-align: center;
+    font-size: 34px;
+    padding: 80px;
+}
+.boxB {
+    box-sizing: border-box;
+    border: 5px solid white;
+    background-color: silver;
+    height: 500px;
+    width: 500px;
+    text-align: center;
+    font-size: 34px;
+    padding-top: 240px;
+}
+.boxC {
+    box-sizing: border-box;
+    border: 5px solid white;
+    background-color: silver;
+    height: 500px;
+    width: 300px;
+    text-align: center;
+    font-size: 34px;
+    padding-top: 240px;
+}
+
