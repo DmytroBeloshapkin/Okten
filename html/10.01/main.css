@@ -1,0 +1,26 @@
+html, body {
+    scroll-behavior: smooth;
+    background-color: antiquewhite;
+}
+
+h1{
+    font-size: 50px;
+    background: cornflowerblue;
+}
+
+h2{
+    background: silver;
+}
+
+.pic{
+    width: 150px;
+}
+
+li{
+    color: cornflowerblue;
+}
+
+.col{
+    color: black;
+    font-size: large;
+}
