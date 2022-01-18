@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="30f98144-50f9-4905-89db-a9a181a231e3" name="Changes" comment="html">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Okten School.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/10.01/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/10.01/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/10.01/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/10.01/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/11.01/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/11.01/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/11.01/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/11.01/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/12.01/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/12.01/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/12.01/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/12.01/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/13.01/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/13.01/.idea/13.01.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/13.01/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/13.01/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/14.01/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/14.01/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/14.01/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/14.01/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/17.01/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/17.01/.idea/vcs.xml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/html/10.01" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="23rWi3YugcuNZpv8vL7fT90ZcMA" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../octen/13.01/homework/1" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="30f98144-50f9-4905-89db-a9a181a231e3" name="Changes" comment="" />
+      <created>1642492811992</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1642492811992</updated>
+      <workItem from="1642492814924" duration="557000" />
+      <workItem from="1642493469737" duration="758000" />
+    </task>
+    <task id="LOCAL-00001" summary="html">
+      <created>1642492901916</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1642492901916</updated>
+    </task>
+    <task id="LOCAL-00002" summary="html">
+      <created>1642493643346</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1642493643346</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="html" />
+    <option name="LAST_COMMIT_MESSAGE" value="html" />
+  </component>
+</project>
