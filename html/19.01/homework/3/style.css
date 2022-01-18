@@ -1,0 +1,67 @@
+body {
+    display: flex;
+    justify-content: center;
+    background-color: #daf7b0;
+}
+
+.wrap{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    padding: 5px;
+}
+
+
+/*блок колонки*/
+.colum{
+    display: flex;
+    justify-content: center;
+}
+
+
+/*стилізовані для подальшого сайту*/
+.text{
+    text-align: center;
+    font-size: 24px;
+    margin: 5px;
+}
+
+.h100{
+    height: 50px;
+}
+.h150{
+    height: 150px;
+}
+
+
+.w800 {
+    width: 800px;
+}
+
+.w300{
+    width: 310px;
+}
+
+.w500{
+    width: 480px;
+}
+
+
+
+.color1{
+    background-color: #e5f6af;
+    padding-top: 25px;
+}
+
+.color2{
+    background-color: #9ee1fe;
+    padding-top: 95px;
+}
+
+.color3{
+    background-color: #fdb6fe;
+    padding-top: 220px;
+}
