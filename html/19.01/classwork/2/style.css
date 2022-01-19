@@ -19,19 +19,22 @@ body {
 .w400{
     width: 400px;
 }
-.w300{
-    width: 300px;
-}
-.br-10{
-    border-radius: 10px;
-}
+
 .text{
+    background-color: #d8d8d8;
+    border: 2px solid white;
     box-sizing: border-box;
-    border: 5px solid white;
-    background-color: #d9d9d9;
     text-align: center;
-    padding-top: 40px;
+    padding-top: 45px;
+    border-radius: 10px;
 }
 .box{
     display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+}
+
+.box2{
+    display: flex;
+
 }
