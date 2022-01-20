@@ -49,7 +49,7 @@ body{
 }
 
 
-@media screen and (min-width: 0px) and (max-width: 768px) {
+@media screen and (min-width: 430px) and (max-width: 768px) {
 
     .F {
         height: 150px;
@@ -79,4 +79,34 @@ body{
         background-color: #f9e9cc;
         border: 10px solid white;
     }
+}
+
+
+@media screen and (min-width: 0px) and (max-width: 430px) {
+
+    .bg-col-grey {
+        background-color: #eebf69;
+        border: 1px solid white;
+    }
+
+    .box2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .box1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+
+.A, .B, .C, .D, .E, .F{
+    box-sizing: border-box;
+    height: 50px;
+    width: 100%;
+    padding-top: 10px;
+   margin: 5px;
+}
+
 }
