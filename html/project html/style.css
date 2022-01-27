@@ -371,10 +371,12 @@ body{
     width: 212px;
     height: 16px;
     color: #61757E;
-    background: var(--white-color);
+    background: #E7EAEB;;
     border-radius: 4px;
     text-align: center;
     border: none;
+
+
 }
 
 .solution_button_light2{
@@ -384,7 +386,7 @@ body{
     width: 131px;
     height: 16px;
     color: #61757E;
-    background: var(--white-color);
+    background: #E7EAEB;;
     border-radius: 4px;
     text-align: center;
     border: none;
