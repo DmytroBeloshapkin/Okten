@@ -22,7 +22,6 @@ while (ij < arrey.length) {
 }
 
 // 4. перебрати циклом for та вивести  числа тільки з непарним індексом
-
 for (let j = 0; j < arrey.length; j++) {
     if (arrey[j] % 2 === 1)
         console.log(arrey[j])
@@ -35,10 +34,8 @@ while (u < arrey.length) {
     if (u % 2 === 0) {
         console.log(u);
     }
-    ;
     u++
 }
-;
 
 
 // 6. перебрати циклом for та вивести  числа тільки парні  значення
@@ -48,7 +45,6 @@ for (let j = 0; j < arrey.length; j++) {
 }
 
 // 7. замінити кожне число кратне 3 на слово "okten"
-
 for (let jju = 0; jju < arrey.length; jju++) {
     if (arrey[jju] % 3 === 0) {
         arrey[jju] = 'okten';
@@ -63,6 +59,15 @@ for (let back = arreyBack.length - 1; back >= 0; back--) {
 
     // тут вища макетматика напевно я не зрозумыв цього алгоритму, буду передивлятись лекцыю можливо тоды заїду в тему, останій код копіпаст що перевірити чи працює, працює але як воно працює я хз)
 }
-;
 
 
+// 9. всі попередні завдання (окрім 8), але в зворотньому циклі (с заду на перед)
+// i = 0;
+// while (i < arrey.length) {
+//     console.log(arrey[i]);
+//     i--;
+// }
+
+for (let j = arrey.length-1; j>=0; j--) {
+    console.log(arrey[j]);
+}
