@@ -20,7 +20,7 @@ console.log(arey6);
 // - За допомогою циклу for і document.write() вивести 10 блоків div c довільним текстом і індексом всередині
 // - За допомогою циклу while вивести в документ 20 блоків h1 c довільним текстом всередині.
 // - За допомогою циклу while вивести в документ 20 блоків h1 c довільним текстом і індексом всередині.
-                                                            //itar
+//itar
 for (let i = 0; i < 10; i++) {
     document.write(`<div>random text</div>`);
 }
@@ -28,7 +28,7 @@ for (let i = 0; i < 10; i++) {
 for (let i = 0; i < 10; i++) {
     document.write(`<div>random text ${i}</div>`);
 }
-                                                            //
+//
 
 let i = 0;
 while (i < 20) {
@@ -171,10 +171,45 @@ for (let j = 0; j < arey13.length; j++) {
 
 // - Створити цикл for на 10  ітерацій з кроком 1. Вивести поточний номер кроку через console.log та document.write
 
+<<<<<<< HEAD
+    // - Створити цикл for на 100 ітерацій з кроком 1. Вивести поточний номер кроку через console.log та document.write
+
+    // - Створити цикл for на 100 ітерацій з кроком 2. Вивести поточний номер кроку через console.log та document.write
+
+    // - Створити цикл for на 100 ітерацій. Вивести тільки парні кроки. через console.log + document.write
+
+    // - Створити цикл for на 100 ітерацій. Вивести тільки непарні кроки. через console.log + document.write
+    =======
+    for (let j = 0; j < 10; j++) {
+    const arey13Element = arey13[j];
+    console.log('поточний номер кроку: '+ j +' ')
+    document.write('поточний номер кроку: '+ j +' <br>')
+}
 // - Створити цикл for на 100 ітерацій з кроком 1. Вивести поточний номер кроку через console.log та document.write
-
+for (let j = 0; j < 100; j++) {
+    const arey13Element = arey13[j];
+    console.log('поточний номер кроку: '+ j +' ')
+    document.write('поточний номер кроку: '+ j +' <br>')
+}
 // - Створити цикл for на 100 ітерацій з кроком 2. Вивести поточний номер кроку через console.log та document.write
-
+for (let j = 0; j < 100; j+=2) {
+    const arey13Element = arey13[j];
+    console.log('поточний номер кроку: '+ j +' ')
+    document.write('поточний номер кроку: '+ j +' <br>')
+}
 // - Створити цикл for на 100 ітерацій. Вивести тільки парні кроки. через console.log + document.write
-
+for (let j = 0; j < 100; j++) {
+    if (j%2 === 0) {
+        const arey13Element = arey13[j];
+        console.log('поточний номер кроку: '+ j +' ')
+        document.write('поточний номер кроку: '+ j +' <br>')
+    }
+}
 // - Створити цикл for на 100 ітерацій. Вивести тільки непарні кроки. через console.log + document.write
+for (let j = 0; j < 100; j++) {
+    if (j%2 === 1) {
+        const arey13Element = arey13[j];
+        console.log('поточний номер кроку: '+ j +' ')
+        document.write('поточний номер кроку: '+ j +' <br>')
+    }
+}
