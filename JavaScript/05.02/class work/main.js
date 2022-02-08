@@ -13,13 +13,14 @@ for (let j = 0; j < arrey.length; j++) {
 }
 
 //     c. перебрати циклом while та вивести  числа тільки з непарним індексом
-ij = 0;
-while (ij < arrey.length) {
-    ij++;
-    if (ij % 2 === 0) {
-        console.log(ij);
-    }
+
+ij=0;
+while (ij < arrey.length){
+if (arrey[ij] % 2 === 1)
+    console.log(arrey[ij])
+ij++
 }
+
 
 // 4. перебрати циклом for та вивести  числа тільки з непарним індексом
 for (let j = 0; j < arrey.length; j++) {

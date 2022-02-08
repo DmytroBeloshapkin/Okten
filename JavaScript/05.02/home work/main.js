@@ -11,10 +11,16 @@ console.log(arey2);
 console.log(arey3);
 
 // -- Створити пустий масив. Наповнити його будь-якими значеннями звертаючись до конкретного індексу. Вивести в консоль
-let arey4 = [prompt('Як Вас звати')];
-let arey5 = [prompt('яке ваше прізвище')];
-let arey6 = ('Привіт на нашому сайті '  + arey5 +' '+ arey4);
-console.log(arey6);
+let arrey4 = [];
+arrey4[0] = ('one');
+arrey4[1] = ('two');
+arrey4[2] = ('three');
+arrey4[3] = ('four');
+for (let j = 0; j < arrey4.length; j++) {
+    const arrey4Element = arrey4[j];
+    console.log(arrey4[j])
+}
+
 
 // - За допомогою циклу for і document.write() вивести 10 блоків div c довільним текстом всередині
 for (let i = 0; i < 10; i++) {
