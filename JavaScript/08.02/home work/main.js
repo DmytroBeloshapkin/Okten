@@ -105,31 +105,31 @@ arreyBilder (arrey3)
 let Myfamily = [
 
     {
-    "user": '1',
-    "id": 'Beloshapkin',
-    "name": 'Dima',
-    "age": '36'
+    user: 1,
+    id: 'Beloshapkin',
+    name: 'Dima',
+    age: 36
     },
 
     {
-    "user": '2',
-    "id": 'Beloshapkina',
-    "name": 'Marianna',
-    "age": '37'
+    user: 2,
+    id: 'Beloshapkina',
+    name: 'Marianna',
+    age: 37
     },
 
     {
-    "user": '3',
-    "id": 'Beloshapkin',
-    "name": 'Vitaliy',
-    "age": '9'
+   user: 3,
+   id: 'Beloshapkin',
+   name: 'Vitaliy',
+   age: 9
     },
 
     {
-    "user": '4',
-    "id": 'Beloshapkin',
-    "name": 'Juriy',
-    "age": '4'
+    user: 4,
+    id: 'Beloshapkin',
+    nam: 'Juriy',
+    age: 4
     }
 ]
 
@@ -144,7 +144,7 @@ function arreyFamily (arrey) {
     for (let i = 0; i < arrey.length; i++) {
         const arreyElement = arrey[i];
         document.write(`<div>`);
-        document.write(`<p>ID: ${arrey[i].id},<br>USER NAME: ${arrey[i].name},<br>USER AGE: ${arrey[i].age}</p>`);
+        document.write(`<p>id: ${arrey[i].id},<br>user name: ${arrey[i].name},<br>user age: ${arrey[i].age}</p>`);
         document.write(`</div>`);
     }
 }
