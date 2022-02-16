@@ -10,14 +10,13 @@
 // let n3 = 'Hermione Granger'
 
 
-/*let arreyNormalized = (str) => {
-    str.replaceAll('..', ' ')
-    str.replaceAll('---', ' ')
-    str.replaceAll('__', ' ')
-    return str
+function arreyNormalized1 (name) {
+    name.replaceAll('..', ' ')
+        .replaceAll('---', ' ')
+        .replaceAll('__', ' ');
+    // return name
 }
-console.log(arreyNormalized(n1))*/
-
+console.log(arreyNormalized1(`n1`)) // щось тут не працює
 
 let arreyNormalized = (name, symbol) => name.split(symbol).filter(item => item.length > 0).join(' ');
 
@@ -25,7 +24,7 @@ console.log(arreyNormalized(n1, '.'));
 console.log(arreyNormalized(n2, '-'));
 console.log(arreyNormalized(n3, '_'));
 
-
+//****************************************************************
 //  - створити функцію, яка генерує масив рандомних числових цілих значень в діапазоні від 0 до 100.
 
 let RandomArray = length => {
@@ -41,37 +40,53 @@ let RandomArray = length => {
 console.log(RandomArray(10));
 
 
-
+//****************************************************************
 // - створити (або згенерувати, за допомоги попередньої функції) масив рандомних цілих числових значень. Відсортувати його за допомоги sort
-console.log(RandomArray(10).sort());
+let arreyRandom = RandomArray(Math.random()*10);
+console.log (arreyRandom.sort((a, b) => a - b));
+console.log (arreyRandom.sort((a, b) => b - a));
 
+//****************************************************************
 // - створити (або згенерувати, за допомоги попередньої функції) масив рандомних цілих числових значень. відфільтрувати  його за допомоги filter, залишивши тільки парні числа
-console.log(RandomArray(25).filter (num => num%2));
+console.log(arreyRandom.filter (num => !(num % 2)));
 
+//****************************************************************
 // - створити масив рандомних цілих числових значень (або згенерувати, за допомоги попередньої функції) . за допомоги map та колбеку перетворити всі об'єкти в масиві на стрінгові.
+console.log(arreyRandom.map(str => str +''));
 
-
-
-
+//****************************************************************
 // - створити функцію sortNums(direction), яка прймає масив чисел, та сортує його від більшого до меньшого, або навпаки в залежності від значення аргументу direction.
 //     let nums = [11,21,3];
 // sortNums('ascending') // [3,11,21]
 // sortNums('descending') // [21,11,3]
 
+function sortNums(numbers, direction) {
+
+        if (direction === 'normal'){
+            return numbers.sort((a, b) => a-b);
+        } else if (direction=== 'revers') {
+            return numbers.sort((a, b) => b-a);
+        }
+        return [];
+    }
+
+console.log (sortNums([3,11,21], `normal`));
+console.log (sortNums([3,11,21], `revers`));
 
 
 
+//****************************************************************
 // - є масив
-// let coursesAndDurationArray = [
-//     {title: 'JavaScript Complex', monthDuration: 5},
-//     {title: 'Java Complex', monthDuration: 6},
-//     {title: 'Python Complex', monthDuration: 6},
-//     {title: 'QA Complex', monthDuration: 4},
-//     {title: 'FullStack', monthDuration: 7},
-//     {title: 'Frontend', monthDuration: 4}
-// ];
-
-
-
+let coursesAndDurationArray = [
+    {title: 'JavaScript Complex', monthDuration: 5},
+    {title: 'Java Complex', monthDuration: 6},
+    {title: 'Python Complex', monthDuration: 6},
+    {title: 'QA Complex', monthDuration: 4},
+    {title: 'FullStack', monthDuration: 7},
+    {title: 'Frontend', monthDuration: 4}
+];
 // -- відсортувати його за спаданням за monthDuration
+console.log(coursesAndDurationArray.sort((a, b) => a.monthDuration - b.monthDuration));
+
 // -- відфільтрувати , залишивши тільки курси з тривалістю більше 5 місяців
+console.log(coursesAndDurationArray.filter(course => course.monthDuration>5))
