@@ -43,6 +43,10 @@ for (const simpson of simpsons) {
     divCreator.innerHTML = `${simpson.name}, ${simpson.surname}, ${simpson.age}, ${simpson.info}, ${simpson.photo}`;
     document.body.appendChild(divCreator)
 }
+//////////////////////////////////////////////////////////////////
+document.body.appendChild(document.createElement(`hr`));
+/////////////////////////////////////////////////////////////////
+
 // - взяти попередній масив з сімпсонами.
 //     Проітерувати його, створиши для кожного елементу масиву <div class='member'>.
 //     Для кожної властивості елементу створити окремий блок, та помістити його у div.member
@@ -74,23 +78,26 @@ for (const simpson of simpsons) {
 //     document.body.appendChild(divCreator) }
 
 
-// simpsons.forEach(item =>{
-//     let div = document.createElement('div');
-//     div.classList.add('member')
-//     for (const divKey in item) {
-//         if (divKey !=='photo') {
-//             let divElement = document.createElement('div')
-//             divElement.innerText = `${divKey}: ${item[divKey]}`
-//             div.appendChild(divElement)
-//         } else {
-//             let img = document.createElement(`img`)
-//             img.src = item[divKey]
-//             div.appendChild(img)
-//         }
-//     }
-//     document.appendChild(div) // б’є помилку
-//     }
-// )
+simpsons.forEach(item =>{
+    let div = document.createElement('div');
+    div.classList.add('member')
+    for (const divKey in item) {
+        if (divKey !=='photo') {
+            let divElement = document.createElement('div')
+            divElement.innerText = `${divKey}: ${item[divKey]}`
+            div.appendChild(divElement)
+        } else {
+            let img = document.createElement(`img`)
+            img.src = item[divKey]
+            div.appendChild(img)
+        }
+    }
+    document.body.appendChild(div) // важко це зрозумів
+    }
+)
+//////////////////////////////////////////////////////////////////
+document.body.appendChild(document.createElement(`hr`));
+/////////////////////////////////////////////////////////////////
 
 // - Є масив
 let coursesArray = [
@@ -167,28 +174,77 @@ let coursesArray = [
 // для властивості modules зробити список з елементами
 // Приклад структири знаходиться у файлі example.png
 
-for (const course of coursesArray) {
+// for (const course of coursesArray) {
+//
+//     let courseElement = document.createElement('course');
+//     let titleElement = document.createElement('h2');
+//     titleElement.innerText = course.title;
+//
+//     let monthDurationElement = document.createElement('div');
+//     monthDurationElement.innerText = course.monthDuration;
+//     let hourDurationElement = document.createElement('div');
+//     hourDurationElement.innerText = course.hourDuration;
+//
+//     let modulesElement = document.createElement('ul');
+//
+//     for (const moduleItem of course.modules) {
+//         let module = document.createElement('li');
+//         module.innerText = moduleItem;
+//         modulesElement.appendChild(module);
+//     }
+//
+//     courseElement.appendChild(titleElement);
+//     courseElement.appendChild(monthDurationElement);
+//     courseElement.appendChild(hourDurationElement);
+//     courseElement.appendChild(modulesElement);
+//     document.body.appendChild(courseElement);
+// }
 
-    let courseElement = document.createElement('course');
-    let titleElement = document.createElement('h2');
-    titleElement.innerText = course.title;
 
-    let monthDurationElement = document.createElement('div');
-    monthDurationElement.innerText = course.monthDuration;
-    let hourDurationElement = document.createElement('div');
-    hourDurationElement.innerText = course.hourDuration;
+coursesArray.forEach(item=> {
+    let allDiv = document.createElement(`div`);
 
-    let modulesElement = document.createElement('ul');
+    let titleDiv = document.createElement(`div`);
+        titleDiv.style.backgroundColor = 'red';
+        titleDiv.style.color = 'white';
+        titleDiv.style.textAlign = 'center';
+        titleDiv.style.border = '1px solid black'
 
-    for (const moduleItem of course.modules) {
-        let module = document.createElement('li');
-        module.innerText = moduleItem;
-        modulesElement.appendChild(module);
-    }
+    let flexDIV = document.createElement(`div`);
 
-    courseElement.appendChild(titleElement);
-    courseElement.appendChild(monthDurationElement);
-    courseElement.appendChild(hourDurationElement);
-    courseElement.appendChild(modulesElement);
-    document.body.appendChild(courseElement);
-}
+        let monthDurationDiv = document.createElement(`div`);
+            monthDurationDiv.style.backgroundColor = 'orange';
+            monthDurationDiv.style.color = 'white';
+            monthDurationDiv.style.textAlign = 'center';
+            monthDurationDiv.style.border = '1px solid black'
+
+        let hourDurationDiv = document.createElement(`div`);
+            hourDurationDiv.style.backgroundColor = 'orange';
+            hourDurationDiv.style.color = 'white';
+            hourDurationDiv.style.textAlign = 'center';
+            hourDurationDiv.style.border = '1px solid black'
+
+    flexDIV.append(monthDurationDiv, hourDurationDiv)
+    flexDIV.style.display = `flex`
+
+    monthDurationDiv.style.width = `30%`
+    hourDurationDiv.style.width = `70%`
+
+    titleDiv.innerText = item.title
+
+    monthDurationDiv.innerText = item.monthDuration
+
+    hourDurationDiv.innerText = item.hourDuration
+
+
+    let modulesDiv = document.createElement(`div`);
+
+    item.modules.forEach(module => {
+        let ul = document.createElement(`li`);
+        ul.innerText = module
+        modulesDiv.appendChild(ul)
+    })
+
+    allDiv.append(titleDiv, flexDIV, modulesDiv)
+    document.body.append(allDiv)
+    })
