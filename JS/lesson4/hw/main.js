@@ -75,3 +75,24 @@ function arreyObject (id,name,age){
     document.write(`sge: ${age}<br>`)
 }
 arreyObject (1, `Dima`, 36)
+
+
+
+
+
+
+let arrrrey = [1,2,3,4,5,6,1,3,5,6,9,4,50,1599]
+
+function arrrreyCheker (arrr){
+    let result = 0;
+    for (let number of arrrrey) {
+        result = number + result
+    }
+    return result
+}
+
+let arrrreyCheker1 = arrrreyCheker(arrrrey);
+console.log(arrrreyCheker1);
+
+
+
