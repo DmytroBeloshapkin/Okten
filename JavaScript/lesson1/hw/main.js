@@ -5,9 +5,12 @@ let a = 'hello'
 let b = 'owu'
 let c = 'com'
 let d = 'ua'
+let q = 'кукуруку'
 
-console.log(a,b,c,d)
-document.writeln(a, ' ', b, ' ', c, ' ', d)
+console.log(a,b,c,d);
+document.write (a, ' ', b, ' ', c, ' ', d);
+
+console.log(q);
 
 // - Переприсвоїти кожній змінній з завдання значення на довільне.
 //     Вивести кожну змінну за допомогою: console.log , alert, document.write
