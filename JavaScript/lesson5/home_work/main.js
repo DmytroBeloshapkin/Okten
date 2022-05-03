@@ -1,18 +1,64 @@
 // Все стірлочними!!!!!!!!!
+let arrey = [100, 10, 20, 5, 30, 40, 50];
 // - створити функцію яка приймає масив чисел та повертає середнє арифметичне його значень.
-let average = function (arr) =>
-
-
-
-
+// let average = (arr) => {
+//     let start = 0;
+//     for (let i = 0; i < arr.length; i++) {
+//         const arrElement = arr[i];
+//         start = start + arrElement
+//     }
+//     return start / arr.length
+// }
+// console.log(average(arrey));
 
 // - створити функцію яка приймає будь-яку кількість чисел, повертає найменьше, а виводить найбільше (Math використовувати заборонено);
+// let minMax = (arr) => {
+//     let min = arr[0];
+//     let max = arr[0];
+//
+//     for (const arrElement of arr) {
+//         if (arrElement < min) {
+//             min = arrElement
+//         }
+//     }
+//     console.log(min);
+//
+//     for (const arrElement of arr) {
+//         if (arrElement > max) {
+//             max = arrElement
+//         }
+//     }
+//     return max
+// }
+// console.log(minMax(arrey));
+
 // - створити функцію яка заповнює масив рандомними числами
 // (цей код генерує рандомні числа в діапазоні від 0 до 100 - Math.round(Math.random()*100)) та виводить його.
+// let randomArrey = (arr) => {
+//     arr.push(Math.floor(Math.random() * 100))
+//     arr.push(Math.round(Math.random() * 100));
+//     return arr
+// }
+// console.log(randomArrey(arrey));
+
 // - створити функцію яка заповнює масив рандомними числами в діапазоні від 0 до limit. limit - аргумент, який характеризує кінцеве значення діапазону.
+// let arrRandom = (limit) => {
+//     let random = [];
+//     for (let i = 0; i < limit; i++) {
+//     random.push(Math.round(Math.random() * 100))
+//     }
+//     return random
+// }
+//
+// console.log(arrRandom(10));
+
 // - Функція приймає масив та робить з нього новий масив в зворотньому порядку. [1,2,3] -> [3, 2, 1].
-//
-//
+
+
+
+
+
+
 //     Переробити на стрілочні функції з попереднього дз
 // - створити функцію яка обчислює та повертає площу прямокутника зі сторонами а і б
 // - створити функцію яка обчислює та повертає площу кола з радіусом r
