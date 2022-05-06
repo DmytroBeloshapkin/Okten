@@ -178,3 +178,14 @@ let matrix = [
 // }, {statusTrue: [], statusFalce: []})
 //
 // console.log(newreduce);
+
+
+let New = users.map((user) => {
+        let userNew = {
+            name: user.name,
+            age: user.age,
+    }
+    return userNew;
+});
+
+console.log(New)
