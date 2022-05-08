@@ -70,7 +70,7 @@ console.log(sortClients);
 
 function CarCreator(model, producer, age, maxSpeed, engine) {
 
-    this.model = model,
+        this.model = model,
         this.producer = producer,
         this.age = age,
         this.maxSpeed = maxSpeed,
@@ -81,9 +81,10 @@ function CarCreator(model, producer, age, maxSpeed, engine) {
         },
 
         this.info = function () {
-
-            console.log(`${model}, ${producer}, ${age}, ${engine}`)
-
+            for (const argumentsKey in this) {
+            if (typeof this[argumentsKey] !=='function')
+            console.log(`${argumentsKey} ${this[argumentsKey]}`) // додати ключі
+            }
         },
 
         this.increaseMaxSpeed = function (newSpeed) {
