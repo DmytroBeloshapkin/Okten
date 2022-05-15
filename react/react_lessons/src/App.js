@@ -1,6 +1,8 @@
 import './App.css'
 import Actor from "./components/Actor";
-import actor from "./components/Actor";
+import Users from "./components/Users";
+
+
 
 const actors = [
     {
