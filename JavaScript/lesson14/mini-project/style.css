@@ -1,0 +1,47 @@
+.users {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.user {
+    background: silver;
+    width: 200px;
+    height: 100px;
+    margin: 10px;
+    margin-left: calc(25% - 100px);
+    margin-right: calc(25% - 100px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.user-details{
+    background: silver;
+}
+
+.postsContainer{
+    background: cornflowerblue;
+}
+
+.posts{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.post{
+ background: #aab3b8;
+    margin: 3px;
+    margin-right: calc(10% - 50px);
+    margin-left: calc(10% - 50px);
+    width: 100px;
+}
+
+.postsDetailsButton{
+    width: 90%;
+    margin: 0 auto;
+    display: block;
+}
+
+.post1{
+    background: #00b573;
+}
