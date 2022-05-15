@@ -150,3 +150,50 @@ let coursesArray = [
 // Приклад структири знаходиться у файлі example.png
 
 
+coursesArray.forEach(item=> {
+    let allDiv = document.createElement(`div`);
+
+    let titleDiv = document.createElement(`div`);
+    titleDiv.style.backgroundColor = 'red';
+    titleDiv.style.color = 'white';
+    titleDiv.style.textAlign = 'center';
+    titleDiv.style.border = '1px solid black'
+
+    let flexDIV = document.createElement(`div`);
+
+    let monthDurationDiv = document.createElement(`div`);
+    monthDurationDiv.style.backgroundColor = 'orange';
+    monthDurationDiv.style.color = 'white';
+    monthDurationDiv.style.textAlign = 'center';
+    monthDurationDiv.style.border = '1px solid black'
+
+    let hourDurationDiv = document.createElement(`div`);
+    hourDurationDiv.style.backgroundColor = 'orange';
+    hourDurationDiv.style.color = 'white';
+    hourDurationDiv.style.textAlign = 'center';
+    hourDurationDiv.style.border = '1px solid black'
+
+    flexDIV.append(monthDurationDiv, hourDurationDiv)
+    flexDIV.style.display = `flex`
+
+    monthDurationDiv.style.width = `30%`
+    hourDurationDiv.style.width = `70%`
+
+    titleDiv.innerText = item.title
+
+    monthDurationDiv.innerText = item.monthDuration
+
+    hourDurationDiv.innerText = item.hourDuration
+
+
+    let modulesDiv = document.createElement(`div`);
+
+    item.modules.forEach(module => {
+        let ul = document.createElement(`li`);
+        ul.innerText = module
+        modulesDiv.appendChild(ul)
+    })
+
+    allDiv.append(titleDiv, flexDIV, modulesDiv)
+    document.body.append(allDiv)
+})
