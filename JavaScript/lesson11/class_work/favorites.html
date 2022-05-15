@@ -9,19 +9,17 @@
 </head>
 <body>
 
-<!--<button onclick="(function (){-->
-<!--    alert('єбать кнопка!')-->
-<!--}())">click me-->
-<!--</button>-->
 
+<script>
 
+    let favorites = JSON.parse(localStorage.getItem('favorites'))
 
+    for (const user of favorites) {
+        let usersDiv = document.createElement('div')
+        usersDiv.innerText = user.name
+        document.body.append(usersDiv)
+    }
 
-<button id="btn1">
-    click my
-</button>
-
-
-<script src="main.js"></script>
+</script>
 </body>
 </html>
